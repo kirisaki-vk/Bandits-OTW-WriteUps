@@ -1,0 +1,92 @@
+lvl1
+NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+
+lvl2
+rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+
+lvl3
+aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+
+lvl4
+2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+
+lvl5
+./-file07
+lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+
+lvl6 cd inhere & find . -maxdepth 2 -size 1033c | cat
+./maybehere07/.file2
+P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+
+lvl7 find / -type f -user bandit7 -group bandit6 -size 33c
+/var/lib/dpkg/info/bandit7.password
+z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+
+lvl8 cat data.txt | grep -i millonth
+TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+
+lvl9 cat data.txt | sort | uniq -u
+EN632PlfYiZbn3PhVK3XOGSlNInNE00t
+
+lvl10 cat data.txt | strings | grep ^====
+========== password
+========== is
+========== G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+
+lvl11 base64 --decode data.txt
+6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+
+lvl12 tr 'A-Za-z' 'N-ZA-Mn-za-m' < data.txt
+JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+
+lvl13 extract them
+wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
+
+lvl14 eval `ssh-agent -s` & ssh-add sshkey.private & ssh bandit14@localhost -p 2220
+fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
+
+lvl15 nc localhost 30000
+jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
+
+lvl16 openssl s_client -connect localhost:30001
+JQttfApK4SeyHwDlI9SXGR50qclOAil1
+
+lvl17 nmap localhost -p 31000-32000 & openssl s_client -connect localhost:31790 
+-----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEAvmOkuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ
+imZzeyGC0gtZPGujUSxiJSWI/oTqexh+cAMTSMlOJf7+BrJObArnxd9Y7YT2bRPQ
+Ja6Lzb558YW3FZl87ORiO+rW4LCDCNd2lUvLE/GL2GWyuKN0K5iCd5TbtJzEkQTu
+DSt2mcNn4rhAL+JFr56o4T6z8WWAW18BR6yGrMq7Q/kALHYW3OekePQAzL0VUYbW
+JGTi65CxbCnzc/w4+mqQyvmzpWtMAzJTzAzQxNbkR2MBGySxDLrjg0LWN6sK7wNX
+x0YVztz/zbIkPjfkU1jHS+9EbVNj+D1XFOJuaQIDAQABAoIBABagpxpM1aoLWfvD
+KHcj10nqcoBc4oE11aFYQwik7xfW+24pRNuDE6SFthOar69jp5RlLwD1NhPx3iBl
+J9nOM8OJ0VToum43UOS8YxF8WwhXriYGnc1sskbwpXOUDc9uX4+UESzH22P29ovd
+d8WErY0gPxun8pbJLmxkAtWNhpMvfe0050vk9TL5wqbu9AlbssgTcCXkMQnPw9nC
+YNN6DDP2lbcBrvgT9YCNL6C+ZKufD52yOQ9qOkwFTEQpjtF4uNtJom+asvlpmS8A
+vLY9r60wYSvmZhNqBUrj7lyCtXMIu1kkd4w7F77k+DjHoAXyxcUp1DGL51sOmama
++TOWWgECgYEA8JtPxP0GRJ+IQkX262jM3dEIkza8ky5moIwUqYdsx0NxHgRRhORT
+8c8hAuRBb2G82so8vUHk/fur85OEfc9TncnCY2crpoqsghifKLxrLgtT+qDpfZnx
+SatLdt8GfQ85yA7hnWWJ2MxF3NaeSDm75Lsm+tBbAiyc9P2jGRNtMSkCgYEAypHd
+HCctNi/FwjulhttFx/rHYKhLidZDFYeiE/v45bN4yFm8x7R/b0iE7KaszX+Exdvt
+SghaTdcG0Knyw1bpJVyusavPzpaJMjdJ6tcFhVAbAjm7enCIvGCSx+X3l5SiWg0A
+R57hJglezIiVjv3aGwHwvlZvtszK6zV6oXFAu0ECgYAbjo46T4hyP5tJi93V5HDi
+Ttiek7xRVxUl+iU7rWkGAXFpMLFteQEsRr7PJ/lemmEY5eTDAFMLy9FL2m9oQWCg
+R8VdwSk8r9FGLS+9aKcV5PI/WEKlwgXinB3OhYimtiG2Cg5JCqIZFHxD6MjEGOiu
+L8ktHMPvodBwNsSBULpG0QKBgBAplTfC1HOnWiMGOU3KPwYWt0O6CdTkmJOmL8Ni
+blh9elyZ9FsGxsgtRBXRsqXuz7wtsQAgLHxbdLq/ZJQ7YfzOKU4ZxEnabvXnvWkU
+YOdjHdSOoKvDQNWu6ucyLRAWFuISeXw9a/9p7ftpxm0TSgyvmfLF2MIAEwyzRqaM
+77pBAoGAMmjmIJdjp+Ez8duyn3ieo36yrttF5NSsJLAbxFpdlc1gvtGCWW+9Cq0b
+dxviW8+TFVEBl1O4f7HVm6EpTscdDxU+bCXWkfjuRb7Dy9GOtt9JPsX8MBTakzh3
+vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
+-----END RSA PRIVATE KEY-----
+
+lvl18 diff passwords.old passwords.new
+hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
+
+lvl19 ./bandit20-do cat /etc/bandit_pass/bandit19
+VxCazJaVykI6W36BkBU0mJTCM8rR95XT
+
+lvl20 nc -l localhost 31542 and on the other host ./suconnect 31542
+NvEJF7oVjkddltPSrdKEFOllh9V1IBcq
+
