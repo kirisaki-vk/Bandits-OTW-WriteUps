@@ -14,7 +14,7 @@ lvl5
 ./-file07
 lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
 
-lvl6 cd inhere & find . -maxdepth 2 -size 1033c | cat
+lvl6 cd inhere & find . -maxdepth 2 -size 1033c ! -executable | cat
 ./maybehere07/.file2
 P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
 
