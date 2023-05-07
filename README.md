@@ -11,6 +11,8 @@
 
     - ### **Level 0**
         1. ### **Hint** 
+        The goal of this level is for you to log into the game using SSH. The host to which you need to connect is bandit.labs.overthewire.org, on port 2220. The username is bandit0 and the password is bandit0. Once logged in,
+
         2. ### **Solution**
         - On first you will need to ssh into the game server which is hosted in `bandit.labs.overthewire.org` on the port `2220` as the user `bandit0`.
         That is done by the following command:
@@ -34,6 +36,8 @@
 
     - ## **Level 1**
         1. ### **Hint** 
+        The password for the next level is stored in a file called `-` located in the home directory.
+
         2. ### **Solution**
         - You will need to login to ssh as `bandit1` on the host server on the usual port `2220` by the following command:
         
@@ -41,7 +45,7 @@
         $ ssh bandit1@bandit.labs.overthewire.org -p 2220
         ```
         
-        > The password for the user `bandit1` is the one discovered on the [Level 1](#level-1)
+        > The password for the user `bandit1` is the one discovered on the [Level 0](#level-0)
 
         - Now executing the command `ls` you will find only one file named `-`
         - To see it's content, you will need to execute this command:
@@ -61,6 +65,7 @@
 
     - ## **Level 2**
         1. ### **Hint** 
+        The password for the next level is stored in a file called `spaces in this filename` located in the home directory
         2. ### **Solution**
         - To solve this level you will need to first login into the host server as `bandit2` on the usual port `2220`. Here is the command for it:
 
@@ -87,6 +92,7 @@
         That's the password to pass to the next level. You can now logout and pass to the next level.
     - ## **Level 3**
         1. ### **Hint** 
+        The password for the next level is stored in a hidden file in the `inhere` directory.
         2. ### **Solution**
         - You will need to ssh into the host server as the user `bandit3` on the usual port `2220`. Which gives the following command:
 
@@ -121,6 +127,8 @@
 
     - ## **Level 4**
         1. ### **Hint** 
+        The password for the next level is stored in the only **human-readable** file in the `inhere` directory. **Tip**: if your terminal is messed up, try the “reset” command.
+
         2. ### **Solution**
             - First, you will need to ssh into the host server on the usual port:
 
@@ -162,6 +170,12 @@
 
     - ## **Level 5**
         1. ### **Hint** 
+        The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
+
+        - human-readable
+        - 1033 bytes in size
+        - not executable
+
         2. ### **Solution**
             - First, you will need to ssh into the host server on the usual port as the user `bandit5`:
 
@@ -185,6 +199,12 @@
 
     - ## **Level 6**
         1. ### **Hint** 
+        The password for the next level is stored somewhere on the server and has all of the following properties:
+
+        - owned by user bandit7
+        - owned by group bandit6
+        - 33 bytes in size
+
         2. ### **Solution**
             - First, ssh into the host server as the user `bandit6`
 
@@ -220,6 +240,8 @@
 
     - ## **Level 7**
         1. ### **Hint** 
+        The password for the next level is stored in the file `data.txt` next to the word `millionth`
+
         2. ### **Solution**
             - First ssh into the host server as the user `bandit7`
 
@@ -245,6 +267,8 @@
 
     - ## **Level 8**
         1. ### **Hint** 
+        The password for the next level is stored in the file `data.txt` and is the only line of text that occurs only once
+
         2. ### **Solution**
             - First ssh into the host server as the user `bandit8`
 
@@ -270,6 +294,8 @@
 
     - ## **Level 9**
         1. ### **Hint** 
+        The password for the next level is stored in the file `data.txt` in one of the few human-readable strings, preceded by several `=` characters.
+
         2. ### **Solution**
             - First ssh into the host server as the user `bandit9`
 
@@ -295,6 +321,8 @@
 
     - ## **Level 10**
         1. ### **Hint** 
+        The password for the next level is stored in the file `data.txt`, which contains base64 encoded data
+
         2. ### **Solution**
             - First ssh into the host server as the user `bandit10`
 
@@ -318,6 +346,8 @@
 
     - ## **Level 11**
         1. ### **Hint** 
+        The password for the next level is stored in the file `data.txt`, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions
+
         2. ### **Solution**
             - First ssh into the host server as the user `bandit11`
 
@@ -341,6 +371,8 @@
 
     - ## **Level 12**
         1. ### **Hint** 
+        The password for the next level is stored in the file `data.txt`, which is a hexdump of a file that has been repeatedly compressed. For this level it may be useful to create a directory under /tmp in which you can work using mkdir. For example: mkdir /tmp/myname123. Then copy the datafile using cp, and rename it using mv (read the manpages!)
+
         2. ### **Solution**
             - First ssh into the host server as the user `bandit12`
 
@@ -381,6 +413,8 @@
 
     - ## **Level 13**
         1. ### **Hint** 
+        The password for the next level is stored in `/etc/bandit_pass/bandit14` and **can only be read by user bandit14**. For this level, you don’t get the next password, but you get a private SSH key that can be used to log into the next level. **Note**: localhost is a hostname that refers to the machine you are working on
+
         2. ### **Solution**
             - First ssh into the host server as the user `bandit13`
 
@@ -423,7 +457,9 @@
             That's the password to the next Level
 
     - ## **Level 14**
-        1. ### **Hint** 
+        1. ### **Hint**
+        The password for the next level can be retrieved by **submitting the password of the current level to port 30000 on localhost.**
+
         2. ### **Solution**
             - First ssh into the host server as the user `bandit14`
 
@@ -456,6 +492,8 @@
 
     - ## **Level 15**
         1. ### **Hint** 
+        The password for the next level can be retrieved by **submitting the password of the current level to port 30001 on localhost using SSL encryption.**
+
         2. ### **Solution**
             - First ssh into the host server as the user `bandit15`
 
@@ -487,6 +525,8 @@
 
     - ## **Level 16** 
         1. ### **Hint** 
+        The credentials for the next level can be retrieved by submitting the password of the current level to **a port on localhost in the range 31000 to 32000**. First find out which of these ports have a server listening on them. Then find out which of those speak SSL and which don’t. There is only 1 server that will give the next credentials, the others will simply send back to you whatever you send to it.
+
         2. ### **Solution**
             - First ssh into the host server as the user `bandit16`
 
@@ -562,6 +602,8 @@
 
     - ## **Level 17**
         1. ### **Hint** 
+        There are 2 files in the homedirectory: **passwords.old and passwords.new**. The password for the next level is in passwords.new and is **the only line that has been changed between passwords.old and passwords.new**
+
         2. ### **Solution**
             - To login, you will need first add the private ssh key on our local PC
             then we can connect as the user `bandit17`
@@ -587,6 +629,8 @@
 
     - ## **Level 18**
         1. ### **Hint** 
+        The password for the next level is stored in a file `readme` in the homedirectory. Unfortunately, someone has modified `.bashrc` to log you out when you log in with SSH.
+
         2. ### **Solution**
             You will not be able to login as the user `bandit18` because the .bashrc file will log you out when you login, but we know that the password to the next Level is into the file called `readme` on `bandit18`'s home we can execute a command by passing it after all the ssh commmand parameter. The command would be:
 
@@ -601,6 +645,8 @@
 
     - ## **Level 19**
         1. ### **Hint** 
+        To gain access to the next level, you should use the setuid binary in the homedirectory. Execute it without arguments to find out how to use it. The password for this level can be found in the usual place `/etc/bandit_pass`, after you have used the setuid binary.
+
         2. ### **Solution**
             - First ssh into the host server as the user `bandit19`
 
@@ -626,6 +672,8 @@
 
     - ## **Level 20**
         1. ### **Hint** 
+        There is a setuid binary in the homedirectory that does the following: it makes a connection to localhost on the port you specify as a commandline argument. It then reads a line of text from the connection and compares it to the password in the previous level (bandit20). If the password is correct, it will transmit the password for the next level (bandit21).
+
         2. ### **Solution**
             - First ssh into the host server as the user `bandit20`
 
@@ -659,6 +707,8 @@
     
     - ## **Level 21**
         1. ### **Hint** 
+        A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in `/etc/cron.d/` for the configuration and see what command is being executed.
+
         2. ### **Solution**
             - First ssh into the host server as the user `bandit21`
 
@@ -696,6 +746,8 @@
 
     - ## **Level 22**
         1. ### **Hint** 
+        A program is running automatically at regular intervals from **cron**, the time-based job scheduler. Look in `/etc/cron.d/` for the configuration and see what command is being executed.
+
         2. ### **Solution**
             - First ssh into the host server as the user `bandit22`
 
@@ -745,6 +797,8 @@
 
     - ## **Level 23**
         1. ### **Hint** 
+        A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in `/etc/cron.d/` for the configuration and see what command is being executed.
+
         2. ### **Solution**
             - First ssh into the host server as the user `bandit23`
 
@@ -841,6 +895,8 @@
 
     - ## **Level 24**
         1. ### **Hint** 
+        A daemon is listening on port 30002 and will give you the password for bandit25 if given the password for bandit24 and a secret numeric 4-digit pincode. There is no way to retrieve the pincode except by going through all of the 10000 combinations, called brute-forcing. You do not need to create new connections each time
+
         2. ### **Solution**
             - First ssh into the host server as the user `bandit24`
 
@@ -899,6 +955,8 @@
 
     - ## **Level 25**
         1. ### **Hint** 
+        Logging in to bandit26 from bandit25 should be fairly easy… The shell for user bandit26 is not `/bin/bash`, but something else. Find out what it is, how it works and how to break out of it.
+
         2. ### **Solution**
             - First ssh into the host server as the user `bandit25`
 
