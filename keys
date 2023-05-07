@@ -84,9 +84,45 @@ vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
 lvl18 diff passwords.old passwords.new
 hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
 
-lvl19 ./bandit20-do cat /etc/bandit_pass/bandit19
+lvl19 cat readme
+awhqfNnAbc1naukrpqDYcF95h7HoMTrC
+
+lvl20 ./bandit20-do cat /etc/bandit_pass/bandit20
 VxCazJaVykI6W36BkBU0mJTCM8rR95XT
 
-lvl20 nc -l localhost 31542 and on the other host ./suconnect 31542
+lvl21 nc -l localhost 31542 and on the other host ./suconnect 31542
 NvEJF7oVjkddltPSrdKEFOllh9V1IBcq
+
+lvl22 cat /etc/cron.d/cronjob_bandit22
+WdDozAdTM2z9DiFEQ2mGlwngMfj4EZff
+
+lvl23 cat /etc/cron.d/cronjob_bandit23
+QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G
+
+lvl24 cat /etc/cron.d/cronjob_bandit24
+#!/bin/bash
+pswd_dir=/tmp/tmp.S7ABKw97tO
+mkdir $pswd_dir
+touch $pswd_dir/bandit24
+cat /etc/bandit_pass/bandit24 > $pswd_dir/bandit24
+
+VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar
+
+lvl25 pincode: 9708
+    #!/bin/bash
+
+    cd $(mktemp -d)
+
+    for i in {0000..9999};
+    do  
+        echo VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar $i >> codes 
+    done
+
+    cat codes | nc localhost 30002 > log.txt
+    cat log.txt | grep -v Wrong
+
+    p7TaowMYrmu23Ol8hiZh9UvD0O9hpx8d
+
+lvl26
+c7GvcKlw9mC7aUQaPx7nwFstuAIBw1o1
 
