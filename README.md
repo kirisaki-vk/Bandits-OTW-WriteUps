@@ -66,6 +66,7 @@
     - ## **Level 2**
         1. ### **Hint** 
         The password for the next level is stored in a file called `spaces in this filename` located in the home directory
+
         2. ### **Solution**
         - To solve this level you will need to first login into the host server as `bandit2` on the usual port `2220`. Here is the command for it:
 
@@ -73,7 +74,7 @@
         $ ssh bandit2@bandit.labs.overthewire.org -p 2220
         ```
 
-        > The passmord of the user `bandit2` is the one we've found in Level 1.
+        > The password of the user `bandit2` is the one we've found in Level 1.
 
         - By executing the command `ls` you will find a file named `spaces in this filename`
 
@@ -90,9 +91,11 @@
         ```
 
         That's the password to pass to the next level. You can now logout and pass to the next level.
+
     - ## **Level 3**
         1. ### **Hint** 
         The password for the next level is stored in a hidden file in the `inhere` directory.
+
         2. ### **Solution**
         - You will need to ssh into the host server as the user `bandit3` on the usual port `2220`. Which gives the following command:
 
